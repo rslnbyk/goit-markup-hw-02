@@ -92,7 +92,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero-button {
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -100,6 +100,26 @@ body {
   letter-spacing: 0.06em;
 
   color: inherit;
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  color: inherit;
+  background-color: var(--additional-bg-color);
+
+  cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--additional-text-color);
   background-color: var(--accent-color);
 }
 
@@ -141,7 +161,7 @@ body {
   color: var(--additional-text-color);
 }
 
-.address {
+.footer-address {
   font-style: normal;
   line-height: 1.71;
 
@@ -163,4 +183,17 @@ body {
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
+}
+
+.card-headline {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--secondary-text-color);
 }
