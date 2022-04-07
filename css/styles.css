@@ -1,0 +1,166 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+  --additional-bg-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --additional-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.section-headline {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo:visited {
+  color: var(--primary-text-color);
+}
+
+.accent-logo {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--secondary-text-color);
+}
+
+.header-contacts:visited {
+  color: var(--secondary-text-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  color: var(--additional-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-headline {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: inherit;
+  background-color: var(--accent-color);
+}
+
+.details-headline {
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.details-text {
+  line-height: 1.71;
+
+  color: var(--secondary-text-color);
+}
+
+.team {
+  background-color: var(--additional-bg-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+.page-footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.logo.footer {
+  color: var(--additional-text-color);
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.71;
+
+  color: var(--additional-text-color);
+}
+
+.footer-contacts {
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:visited {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
